@@ -8,7 +8,7 @@
 
 .card_img{
     /* width: 286px; */
-    height: 500px;
+    height: 510px;
     overflow: hidden;
 }
 .card_img img{
@@ -32,9 +32,12 @@
 .card_desc h2{
     font-weight: bold;
 }
-.card_desc h4{
+.card_desc h6{
     margin-top: 0px;
 }
+.card_desc h5{
+    margin-bottom: 0;
+}
 .footer{
-    margin: 18px auto;
+    margin: 14px auto;
 }

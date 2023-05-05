@@ -11,8 +11,8 @@ const Card = ({ img, heading, lang, ratings, id }) => {
         </div>
         <div className="card_desc">
           <h2>{heading}</h2>
-          <h4>Language : {lang}</h4>
-          <h4>Ratings : {ratings} /10</h4>
+          <h6>Language : {lang}</h6>
+          <h5>Ratings : {ratings} /10</h5>
         </div>
 
         <div className="footer">
