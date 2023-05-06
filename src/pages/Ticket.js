@@ -56,7 +56,7 @@ const Ticket = () => {
               name="username"
               type="text"
               placeholder="Enter your name"
-              value={form.username}
+              value={form?.username}
               onChange={(e) => handleChange(e)}
             />
           </Form.Group>
@@ -66,7 +66,7 @@ const Ticket = () => {
               name="email"
               type="email"
               placeholder="Enter email"
-              value={form.email}
+              value={form?.email}
               onChange={(e) => handleChange(e)}
             />
           </Form.Group>
@@ -75,7 +75,7 @@ const Ticket = () => {
               name="ph"
               type="text"
               placeholder="Enter your phone no."
-              value={form.ph}
+              value={form?.ph}
               onChange={(e) => handleChange(e)}
             />
           </Form.Group>
